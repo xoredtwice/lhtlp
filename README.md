@@ -32,4 +32,7 @@ The run-script is at the end of the file in "TLP Test" section. You can set the 
 + Then it creates two independant puzzles ```puzzle1```, ```puzzle2``` and solves them.
 + Next, it adds two puzzles and generates the third puzzle ```puzzle3``` and solves this one too.
 + Then, using the lookupTable, it finds the decoded solutions to the puzzles.
-+ Finally it asserts the equality of the decoded solution of ```puzzle3``` and summation of solutions 1 and 2. 
++ Finally it asserts the equality of the decoded solution of ```puzzle3``` and summation of solutions 1 and 2.
+
+### What's Next?
++ Adding rangeProof to assure that solution is in range of ```sMax```
